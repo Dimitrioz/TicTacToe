@@ -1,3 +1,4 @@
+import os
 def print_board(board):
     for row in board:
         print(" | ".join(row))
@@ -34,15 +35,20 @@ def main_menu():
         
         if choice == '1':
             score_x, score_o = main_game(score_x, score_o)
+            os.system('cls')
         elif choice == '2':
             how_to_play()
+            os.system('cls')
         elif choice == '3':
             credits()
+            os.system('cls')
         elif choice == '4':
+            os.system('cls')
             print("Goodbye!")
             break
         else:
             print("Invalid choice, please try again.")
+            
 
 def how_to_play():
     print("\nHow to Play:")
@@ -52,11 +58,13 @@ def how_to_play():
     print("The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner.")
     print("When all 9 squares are full, the game is over.")
     input("Press Enter to return to the main menu.")
+    os.system('cls')
 
 def credits():
     print("\nCredits:")
     print("Tic Tac Toe Game developed by Dimitrios Gkoro.")
     input("Press Enter to return to the main menu.")
+    os.system('cls')
 
 def main_game(score_x, score_o):
     board = [[" " for _ in range(3)] for _ in range(3)]
@@ -115,6 +123,7 @@ def main_game(score_x, score_o):
     while True:
         play_again = input("Do you want to play again? (y/n): ").lower()
         if play_again == 'y':
+            os.system('cls')
             return main_game(score_x, score_o)
         elif play_again == 'n':
             return score_x, score_o
