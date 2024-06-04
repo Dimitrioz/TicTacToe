@@ -229,3 +229,39 @@ while game_on:
     display_game(game_list)
     
     game_on = gameon_choice()
+
+
+
+
+
+#######################################################
+
+# Steps i need to follow to complete the game:
+
+# Step 1: Write and set up a board.
+# Step 2: Write all possible ways to win.
+# Step 3: Write when board is full.
+# Step 4: Write the current scoreboard.
+# Step 5: Create the input for player's name.
+# Step 6: Create score counter for the players.
+# Step 7: Create the counter for the starter player.
+# Step 8: Create main menu.
+# Step 9: Create the choice option.
+# Step 10: Analyse and write for each option.
+# Step 11: Write the main game with the needed elements.
+# Step 12: Set up the board.
+# Step 13: Set up the players.
+# Step 14: Print the board.
+# Step 15: Check if player's input is valid (row).
+# Step 16: Check if player's input is valid (column).
+# Step 17: Check if chosen cell is empty.
+# Step 18: Write player's option if empty.
+# Step 19: Check if the player that played last won(winner).
+# Step 20: Check if the board is full(Draw).
+# Step 21: Switch current player.
+# Step 22: Print updated scoreboard.
+# Step 23: Create the option to play again.
+# Step 24: Switch the players turn for next game.
+
+# todo: Option to play with AI.
+# maybe todo: Update the board.
