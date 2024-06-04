@@ -91,7 +91,7 @@ def credits():
     # Clear the screen and display the credits
     clear_screen()
     print("\nCredits:")
-    print("Tic Tac Toe Game developed by [Your Name].")
+    print("Tic Tac Toe Game developed by Dimitrios Gkoro.")
     input("Press Enter to return to the main menu.")
 
 def main_game(score_x, score_o, player1_name, player2_name, starting_player):
